@@ -104,4 +104,15 @@ p {
 .slide-leave-active {
   transition: 0.3s ease-out;
 }
+
+.slide-down-enter-from,
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(300px);
+}
+
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: 0.3s ease-out;
+}
 </style>
