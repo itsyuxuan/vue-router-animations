@@ -93,4 +93,15 @@ p {
 .fade-leave-active {
   transition: opacity 0.3s ease-out;
 }
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translate(-100%);
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: 0.3s ease-out;
+}
 </style>
