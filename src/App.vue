@@ -115,4 +115,15 @@ p {
 .slide-down-leave-active {
   transition: 0.3s ease-out;
 }
+
+.grow-in-enter-from,
+.grow-in-leave-to {
+  opacity: 0;
+  transform: scale(0.3);
+}
+
+.grow-in-enter-active,
+.grow-in-leave-active {
+  transition: 0.3s ease-out;
+}
 </style>
