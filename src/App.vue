@@ -126,4 +126,15 @@ p {
 .grow-in-leave-active {
   transition: 0.3s ease-out;
 }
+
+.grow-out-enter-from,
+.grow-out-leave-to {
+  opacity: 0;
+  transform: scale(1.5);
+}
+
+.grow-out-enter-active,
+.grow-out-leave-active {
+  transition: 0.3s ease-out;
+}
 </style>
